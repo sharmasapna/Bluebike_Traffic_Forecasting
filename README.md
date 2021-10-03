@@ -16,6 +16,9 @@
 ### Some EDA Results are as follows:
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/EDA_Results.png">
 
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_subscriber_Customer_distrubution.png" width="300" height="300"><img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_from_to stations_heatmap.png" width="300" height="300">
+
+
     
   3. Modeling
   4. Results
