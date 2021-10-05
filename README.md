@@ -1,5 +1,6 @@
 ## BlueBike_Traffic_Forecasting
-<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/BluBikepic.png" width="200" height="100">
+
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bluebikepic.jpeg">
 
 ## Outline   
   1. Data extraction and Data cleaning
