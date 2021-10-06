@@ -21,8 +21,10 @@
 
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_subscriber_Customer_distrubution.png" width="300" height="300"><img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_from_to stations_heatmap.png" width="300" height="300">
 
+### Interactive plot of number of bikes can be seen [here](https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bluebikes_s.html)
 
-    
-  3. Modeling
-  4. Results
-  5. Conclusions
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bokeh_plot.png" width="400" height="400"><br>
+
+  3. Modeling<br>
+  4. Results<br>
+  5. Conclusions<br>
