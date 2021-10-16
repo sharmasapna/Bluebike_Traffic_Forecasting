@@ -4,7 +4,7 @@
 
 ## Outline   
   1. Data extraction and Data cleaning
-  2. [EDA](bluebikes_eda)<br>
+  2. [EDA](bluebikes_eda.ipynb)<br>
     2.1 Yearly bike ride pattern<br>
     2.2 Monthly bike ride pattern<br>
     2.3 Week-day bike ride pattern<br>
