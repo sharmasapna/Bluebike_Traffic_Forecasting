@@ -58,5 +58,9 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
 
   3. Modeling<br>
     3.1 [Auto Regression Model](Bluebike_Demand_Forecasting_auto_regression.ipynb) 
+      - 3.1.1 lag_plot
+      - 3.1.2 auto- correlation plot
+      - 3.1.3 acf plot
+      - 3.1.4 prediction plot
   5. Results<br>
   6. Conclusions<br>
