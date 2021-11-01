@@ -2,6 +2,12 @@
 
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bluebikepic.jpeg">
 
+Time series forecasting models can broadly be categorized into the following categories:
+
+- Classical / Statistical Models — Auto Regression, Moving Averages, Exponential smoothing, ARIMA, SARIMA, TBATS(Linear Regression)
+- Machine Learning — XGBoost, Random Forest, or any ML model with reduction methods
+- Deep Learning — RNN, LSTM
+
 ## Outline   
   1. Data extraction and Data cleaning
   2. [EDA](bluebikes_eda.ipynb)<br>
