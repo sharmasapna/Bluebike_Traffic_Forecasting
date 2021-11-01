@@ -47,14 +47,14 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
     
 ### Some EDA Results are as follows:
 
-<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/date-wise.png" width="900" height="300">
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/date-wise.png" width="450" height="150">
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/EDA_Results.png">
 
-<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_subscriber_Customer_distrubution.png" width="300" height="300"><img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_from_to stations_heatmap.png" width="300" height="300">
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_subscriber_Customer_distrubution.png" width="200" height="200"><img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bb_from_to stations_heatmap.png" width="200" height="200">
 
 ### Interactive plot of number of bikes 
 
-<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bokeh_plot.png" width="400" height="400"><br>
+<img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bokeh_plot.png" width="200" height="200"><br>
 
   3. Modeling<br>
   
