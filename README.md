@@ -57,13 +57,15 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bokeh_plot.png" width="400" height="400"><br>
 
   3. Modeling<br>
+  
     3.1 [Auto Regression Model](Bluebike_Demand_Forecasting_auto_regression.ipynb) 
       - 3.1.1 lag_plot
       - 3.1.2 auto- correlation plot
       - 3.1.3 acf plot
-      - 3.1.4 prediction plot
+      - 3.1.4 prediction plot<br>
+      
     3.2 [Moving Average Model](Bluebike_Demand_Forecasting_Moving_Averages.ipynb)
       - 3.2.1 Trailling Moving Average
       - 3.2.2 Best window size Calculation
-  5. Results<br>
-  6. Conclusions<br>
+  4. Results<br>
+  5. Conclusions<br>
