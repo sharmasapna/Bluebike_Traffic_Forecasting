@@ -82,11 +82,14 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
   - 4.2 [Moving Average Model](Bluebike_Demand_Forecasting_Moving_Averages.ipynb)<br>
       - 4.2.1 Trailling Moving Average<br>
       - 4.2.2 Best window size Calculation<br>
-  - 4.3 Prophet<br>
-  - 4.4 [LSTM](Bluebike_Demand_Forecasting_lstm_MIT_Mass_Av.ipynb)<br>
-  - 4.5 Random Forest<br>
-  - 4.6 XGBoost<br>
+  - 4.3 [Arima](Bluebike_Demand_Forecasting_Arima.ipynb)<br>
+  - 4.4 Prophet<br>
+  - 4.5 [LSTM](Bluebike_Demand_Forecasting_lstm_MIT_Mass_Av.ipynb)<br>
+  - 4.6 Random Forest<br>
+  - 4.7 [XGBoost](Bluebike_Demand_Forecasting_linear_regression_xgboost.ipynb)<br>
   5. Results<br>
-    5.1 Forecasting<br>
+    5.1 Hourly Forecasting for selected stations with high outbound traffic<br>
     5.2 Recommendation<br>
+    - 5.2.1 Lower price for off peak hours
+    - 5.2.2 Just in time bike refilling schedule to reduce the operation cost
   6. Future works
