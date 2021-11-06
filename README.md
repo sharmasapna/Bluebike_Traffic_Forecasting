@@ -88,8 +88,8 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
   - 4.6 Random Forest<br>
   - 4.7 [XGBoost](Bluebike_Demand_Forecasting_linear_regression_xgboost.ipynb)<br>
   5. Results<br>
-    5.1 Hourly Forecasting for selected stations with high outbound traffic<br>
-    5.2 Recommendation<br>
+  - 5.1 Hourly Forecasting for selected stations with high outbound traffic<br>
+  - 5.2 Recommendation<br>
     - 5.2.1 Lower price for off peak hours
     - 5.2.2 Just in time bike refilling schedule to reduce the operation cost
   6. Future works
