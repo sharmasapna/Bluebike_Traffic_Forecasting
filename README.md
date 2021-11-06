@@ -69,9 +69,9 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
 
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bokeh_plot.png" width="200" height="200"><br>
 
-  3. Feature Engineering
-    3.1 Adding the holiday feature 
-    3.2 Adding the weather data for temperature, humidity and windspeed
+  3. Feature Engineering<br>
+    3.1 Adding the holiday feature <br>
+    3.2 Adding the weather data for temperature, humidity and windspeed<br>
     3.2 Outlier removal <br>
   4. Modeling<br>
   - 4.1 [Auto Regression Model](Bluebike_Demand_Forecasting_auto_regression.ipynb) <br>
