@@ -85,7 +85,7 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
       4.2.1 Trailling Moving Average
       4.2.2 Best window size Calculation
     4.3 Prophet
-    4.3 LSTM
+    4.3 [LSTM](Bluebike_Demand_Forecasting_lstm_MIT_Mass_Av.ipynb)
     4.4 Random Forest
     4.5 XGBoost
   5. Results<br>
