@@ -74,13 +74,11 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
     3.2 Adding the weather data for temperature, humidity and windspeed
     3.2 Outlier removal <br>
   4. Modeling<br>
-  
     4.1 [Auto Regression Model](Bluebike_Demand_Forecasting_auto_regression.ipynb) 
       4.1.1 lag_plot
       4.1.2 auto- correlation plot
       4.1.3 acf plot
       4.1.4 prediction plot<br>
-      
     4.2 [Moving Average Model](Bluebike_Demand_Forecasting_Moving_Averages.ipynb)
       4.2.1 Trailling Moving Average
       4.2.2 Best window size Calculation
