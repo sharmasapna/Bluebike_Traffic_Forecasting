@@ -6,11 +6,11 @@
 <img src="https://github.com/sharmasapna/BlueBike_Traffic_Forecasting/blob/main/data/bluebikepic.jpeg">
 
 ## Abstract
-Bluebike is a bike sharing system with over 1800 bicycles and 308 fixed stations across Boston. The growth of the biking system over the last decade encapsulates the need of redefining business supply. The purpose of this project is to forecast hourly station level demand by implementing the Prophet, Random Forest and XGBoost models. The models are trained on a rolling basis and evaluated using matrices including the Root Mean Square Error(RMSE), R-Squared and Mean Absolute Error(MAE). These models are used to make decisions to improve inventory balancing resulting in increased profits and customer satisfaction.      
+[Bluebike](https://www.bluebikes.com/) is a bike sharing system with over 1800 bicycles and 308 fixed stations across Boston. The growth of the biking system over the last decade encapsulates the need of redefining business supply. The purpose of this project is to forecast hourly station level demand by implementing the Prophet, Random Forest and XGBoost models. The models are trained on a rolling basis and evaluated using matrices including the Root Mean Square Error(RMSE), R-Squared and Mean Absolute Error(MAE). These models are used to make decisions to improve inventory balancing resulting in increased profits and customer satisfaction.      
 ## Problem Description
 Blue bike is a bike rental facility in Boston that allows individuals to use it for a short trip for a price. The customer can borrow a bike from a blue bike station scattered throughout the city and return it to another or the same station. Due to the topography of the city and localization of popular sites such as shopping complexes, offices, and educational facilities some stations have more demand for starting or ending a trip. This phenomenon leads to an imbalance in the bike inventory, which is currently maintained by a set of trucks operated to monitor the demand and supply. Inefficiency in the execution of the repositioning process using a manual approach leads to an increase in operating costs and customer dissatisfaction. There is a potential for reducing operational costs and improving customer satisfaction with improved decision-making based on predictive analysis. The primary purpose of the project is to determine the station demand and solve the demand-supply problem.  We aim to identify the number of bikes to be added or removed from a station at the best optimal time.
 ## Dataset and Preprocessing 
-The Boston Bluebike dataset owned and maintained by the municipalities provides historical trip data for 350+ stations. Each of the 10 million trip records includes information for start and end date-time of the trip, duration of the trip, start and end station name, latitude and longitude of the station, and user membership type. Additional significant attributes including weekday/weekend, holiday, hour of the data was feature engineered to the dataset. The data were then pre-processed to remove 0.5% of the trips which included trips with a distance greater than 10 miles and trip duration exceeding 2 hours. The average trip duration was 19 mins. We also restricted the data to start from January 1st, 2019 till August 31st, 2021. Data is available in the data folder.
+The Boston Bluebike [dataset](https://www.bluebikes.com/system-data) owned and maintained by the municipalities provides historical trip data for 350+ stations. Each of the 10 million trip records includes information for start and end date-time of the trip, duration of the trip, start and end station name, latitude and longitude of the station, and user membership type. Additional significant attributes including weekday/weekend, holiday, hour of the data was feature engineered to the dataset. The data were then pre-processed to remove 0.5% of the trips which included trips with a distance greater than 10 miles and trip duration exceeding 2 hours. The average trip duration was 19 mins. We also restricted the data to start from January 1st, 2019 till August 31st, 2021. Data is available in the data folder.
 
 The Boston local hourly weather data provided by the National Center for Environmental Information (NOAA) includes the weather attributes consisting of the temperature, precipitation, and wind speed. The weather data was merged with the blue bike trip data to create a unified data source.
 
@@ -47,8 +47,11 @@ We can use statsmodel.tsa.seasonal to decompsose the four elements of a time ser
   - Deep Learning — RNN, LSTM
 
 ## Basic Steps followed in Time Series Fore Casting: 
-  1. Data extraction and Data cleaning
-  2. [EDA](bluebikes_eda.ipynb)<br>
+  1. Data extraction and Data cleaning<br>
+    1.1 Monthly Zip files were downloaded and csv files were extracted<br>
+    1.2 Data Cleaning<br>
+    1.3 [Serializaion](Bluebikes_Serialize_Csv_Files.ipynb)<br>
+  3. [EDA](bluebikes_eda.ipynb)<br>
     2.1 Yearly bike ride pattern<br>
     2.2 Monthly bike ride pattern<br>
     2.3 Week-day bike ride pattern<br>
