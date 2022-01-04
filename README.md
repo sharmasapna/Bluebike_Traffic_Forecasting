@@ -1,5 +1,4 @@
 ## Capacity Planning for Bluebike
-### A project done by Dewanshi Deswal, Sapna Sharma and Sarang Pandey as a Capstone project for DS5500, Northeastern University,Boston.
 
 
 
